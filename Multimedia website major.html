@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html>
+<title> Starlit Studios</title>
+
+<!-- Favicon for webpage -->
+<link rel="shortcut icon" type="image/png/jpg" href="https://img.icons8.com/plasticine/2x/camera.png"> 
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i1.wp.com/throwthediceandplaynice.com/wp-content/uploads/2019/05/THROW-DICE-PLAY-NICE-Recording-Studio-Setup.jpg?w=960");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">  <img class="w3-image w3--large" src="https://image.flaticon.com/icons/png/512/45/45180.png" width="25" height="10"></a> 
+    
+	<!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-bars"></i> ABOUT</a> 
+      <a href="#PROCESSES" class="w3-bar-item w3-button"><i class="fa fa-user"></i> PROCESSES</a>
+      <a href="#EQUIPMENT" class="w3-bar-item w3-button"><i class="fa fa-th"></i> EQUIPMENT</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#PROCESSES" onclick="w3_close()" class="w3-bar-item w3-button">PROCESSES</a>
+  <a href="#EQUIPMENT" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPMENT</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Welcome to <b>Starlit Studios</b></span><br>
+    <span class="w3-large">Express your creativity, chase your dreams.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn about what we do here at Starlit Studios</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-white w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT STARLIT STUDIOS</h3>
+  <p class="w3-center w3-large">A brief overview of all aspects of my production</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+  
+  <div class="w3-quarter">
+      <i class="fa fa-film w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Major Piece</p> 
+      <p>A short film combining elements of stop motion and animation that will be the core of my major work</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Promotional Website</p>
+      <p>A promotional website that promotes my major piece with further description of processes and the purpose of production</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-photo w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Promotional Poster</p>
+      <p>A graphic poster that promotes my major piece in a 'movie poster' style with a title and background graphics related to my film</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-envelope w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Contact Card</p>
+      <p>A card that states my student number and what I do, created with the same colour palate and aesthetic elements</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-black" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3><b>'Intangible' - Synopsis</b></h3>
+      <p class="w3-justify">‘Intangible’ is a short film that follows a teenager named Charlie. He wakes up to the sound of his alarm clock early in the morning, he begins completing homework and as he finishes a gust of wind flies through his bedroom window sending his page flying out onto the street. He leaves his house and begins to chase the page traversing through different settings with different composition styles. He first runs through a street scene where a car drives past sweeping the page further. He next chases the paper through a forest setting where a bird nibs the page in its beak flying through the lush forest which eventually decays as it is being cut down in the background in an excavation site. It is now night time and their silhouettes are traversing through the forest. The bird lands in its nest as the tree is being cut down. A cut occurs and the boy is pictured back in his room writing on the page. It is revealed that the events of the previous scenes were taking place on his page as he is writing a ‘creative’ response. The previous scenes are illustrated on his page as he documents his fictitious ‘adventure’.</p>
+
+<p class="w3-justify">‘Intangible’ will combine a variety of production elements including:
+Stop motion
+Camera shot footage
+Motion graphics
+Rotoscoping and green screen editing
+
+Specifically, each scene is to feature a different composition style, displaying product diversity. The short film, ‘Intangible’ will have a duration of around 5 minutes with each scene spanning 30 seconds to 1 minute- the aim is to have 4 main scenes, an introductory title clip and credits. The themes that will be incorporated into this short film are adventure, freedom, achieving your goals and environmental consciousness. All content to be produced will be completed independently complementary to the feedback of my Multimedia teacher.</p>  
+<br></p>
+      <p><a href="#EQUIPMENT" class="w3-button w3-black"><i class="fa fa-th"> </i> Click To See Some Of The Equipment We Use</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-large" src="https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2017/07/tripod.jpg?resize=573%2C750&ssl=1" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- processes Section -->
+<div class="w3-container" style="padding:128px 16px" id="PROCESSES">
+  <h3 class="w3-center"> The Purpose and Process of Creating "Intangible"</h3>
+  
+  <p class="w3-center w3-large">The purpose of ‘Intangible’ is to showcase my multimedia skills and abilities that have been acquired throughout the preliminary year. I intend to express various styles within my composition (stop motion, paper motion and animation) to display my comprehension of industrial technology multimedia. 
+
+‘Intangible’ is suitable for all people to watch- the genre of ‘Intangible’ is adventure which may better appeal to a teenage / young adult audience forming my intended target audience people aged 15 - 20.
+</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://blog.hubspot.com/hubfs/pen-and-paper-to-do-list.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>The planning process</h3>
+          <p class="w3-opacity">Brainstorming and Idea Generation</p>
+          <p class="w3-justify">Storyboarding is crucial in maintaining fluidity from the planning stage up to my final production- an emphasis on maintaining close correlation from my storyboard to my final product is demonstrated in this stage and allows me to remain consistent in my final work</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://i1.adis.ws/i/canon/pro-stop-motion-3?w=600&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Creation of my set</h3>
+          <p class="w3-opacity">Set and Prop Development for Scene 1</p>
+          <p class="w3-justify">As part of the plot of my project, the stop motion scene involves the  creation of a bedroom, for that reason the set construction of a miniature bedroom has been researched. Within this, further props and an armature are to be created. </p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://media.istockphoto.com/photos/video-editing-software-close-up-picture-id972892768?k=6&m=972892768&s=170667a&w=0&h=XtZmJKxDtfGYmjCWJG_xdoVZCXu-V4Cogn_1WxzDJbQ=" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Filming and animating</h3>
+          <p class="w3-opacity">Editing Processes and Shot Collection</p>
+          <p class="w3-justify">A range of images will be taken for scene one, my stop motion scene which will require me to manually combine these pictures to create the perception of a video. The rest of the short film will be created using animation on After Effects and Premiere Pro</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://media.istockphoto.com/photos/popcorn-and-clapperboard-picture-id1191001701?k=6&m=1191001701&s=612x612&w=0&h=zQ6vP0lTy7CnXu-HbTZj8a20XcXc2x--lS0WtUt9c-A=" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Finalising the production</h3>
+          <p class="w3-opacity">Final Adjustments and Screening</p>
+          <p class="w3-justify">Minor colour & sound corrections will be made to enhance my short film. All editing will be complete & the film will be monitored & reviewed for errors, undergoing an approval process by my multimedia teacher before being transfered to a USB for viewing. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="EQUIPMENT">
+  <h3 class="w3-center">BRIEF OVERVIEW OF OUR EQUIPMENT</h3>
+  <p class="w3-center w3-large">Tools used in production</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="data:image/jpeg;base64,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" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Samsung Camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://azcd.harveynorman.com.au/media/catalog/product/r/l/rl-fl-006-bk-lv--dropship-rl-fl-006-bk-lv-00_1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lighting Equipment">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://static.videezy.com/system/resources/thumbnails/000/014/278/small/editing-and-mixing-sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Adobe editing software">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://static.videezy.com/system/resources/thumbnails/000/005/890/small/5890.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="HP laptop">
+    </div>
+  </div>
+
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-white w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Division of my Major Film</h3>
+      <p>My major work, the short film more specifically, has been divided into three key facets. These three aspects of my short film make up the production of my whole project</p>
+      <p>As can be seen in the diagram to the right, a visual representation of my project segmentation is displayed.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Filming</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:30%">30%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Animating</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:40%">40%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Editing</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:30%">30%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT US</h3>
+  <p class="w3-center w3-large">Get in touch with Starlit Studios, send us a message</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sydney, NSW</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (02) 8811 0300</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: tmenezes@parrastu.catholic.edu.au</p>
+    <br>
+    
+	<form action="https://uploads-ssl.webflow.com/5ef0df6b9272f7410180a013/5ef344a6fcb9c3498e2b332a_Screenshot_11.png" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+	   <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+	
+	
+    <!-- Image of location/map -->
+    <img src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div>
+    <span class="w3-medium">All images have been acquired from  <a href="https://www.videezy.com/"> www.videezy.com </a>from their copyright free selection. This website was created using a template found on  <a href="https://www.w3schools.com/"> www.W3.schools.com </span>
+   
+   
+   <br> <p>Thank You for Viewing <p/>
+
+  </div>
+</div>
+
+<div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Return back to the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Created by Student: 34047693</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
